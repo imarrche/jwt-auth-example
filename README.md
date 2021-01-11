@@ -14,7 +14,7 @@ This is just an example of how JWT authorization could be implemented for REST A
 
 4. GET `api/v1/public` - just a public endpoint that always returns `HTTP 200 OK`.
 5. GET `api/v1/private` - private endpoint which returns `HTTP 401 UNAUTHORIZED` if user is not authorized.
-* To be actually authenticated, header `Authorization` must be set in `Bearer <token>` format.
+* To be actually authorized, header `Authorization` must be set in `Bearer <token>` format.
 
 
 ## Run instructions
