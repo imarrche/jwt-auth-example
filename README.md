@@ -1,6 +1,6 @@
 # JWT
 
-This is just an example of how JWT authorization could be implmented for REST API.
+This is just an example of how JWT authorization could be implemented for REST API.
 
 1. POST `api/v1/auth/sign-up` - for signing up.
 * email, username, first_name, second_name, password are required.
