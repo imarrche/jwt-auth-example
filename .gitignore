@@ -1,0 +1,8 @@
+# Build related.
+build/
+
+# Environment related.
+.env
+
+# Testing related.
+coverage.html
